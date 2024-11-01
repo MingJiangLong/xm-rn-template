@@ -19,7 +19,7 @@ const jsoMetroPlugin = obfuscate(
         logObfuscatedFiles: true /* optional generated files will be located at ./.jso */,
     }
 )
-
+// 25 23 22 
 
 const config = {
     transformer: {

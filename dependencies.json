@@ -2,191 +2,241 @@
     {
         "package": "@longjiang/event-bus",
         "version": "1.0.3",
+        "type": "S",
         "desc": "事件总线包"
     },
     {
         "package": "@react-native-async-storage/async-storage",
         "version": "2.0.0",
-        "desc": "本地存储包"
+        "desc": "本地存储包",
+        "type": "S"
     },
     {
         "package": "@react-native-community/geolocation",
         "version": "3.4.0",
-        "desc": "地理位置包"
+        "desc": "地理位置包",
+        "type": "S"
     },
     {
-        "package": "@react-native-firebase/app",
-        "version": "21.0.0",
-        "desc": "firebase相关包-app"
+        "package": "react-native-firebase集合包",
+        "desc": "firebase相关包",
+        "list": [
+            {
+                "package": "@react-native-firebase/app",
+                "version": "21.0.0",
+                "desc": "firebase相关包-app",
+                "type": "S"
+            },
+            {
+                "package": "@react-native-firebase/database",
+                "version": "21.0.0",
+                "desc": "firebase相关包-database",
+                "type": "S"
+            },
+            {
+                "package": "@react-native-firebase/messaging",
+                "version": "21.0.0",
+                "desc": "firebase相关包-messaging",
+                "type": "S"
+            }
+        ]
     },
     {
-        "package": "@react-native-firebase/database",
-        "version": "21.0.0",
-        "desc": "firebase相关包-database"
-    },
-    {
-        "package": "@react-native-firebase/messaging",
-        "version": "21.0.0",
-        "desc": "firebase相关包-messaging"
-    },
-    {
-        "package": "@react-navigation/bottom-tabs",
-        "version": "6.6.1",
-        "desc": "@react-navigation相关包-bottom-tabs"
-    },
-    {
-        "package": "@react-navigation/native",
-        "version": "6.1.18",
-        "desc": "@react-navigation相关包-native"
-    },
-    {
-        "package": "@react-navigation/native-stack",
-        "version": "6.11.0",
-        "desc": "@react-navigation相关包-native-stack"
-    },
-    {
-        "package": "react-native-reanimated",
-        "version": "3.16.1",
-        "desc": "@react-navigation相关包-react-native-reanimated"
-    },
-    {
-        "package": "react-native-safe-area-context",
-        "version": "4.11.0",
-        "desc": "@react-navigation相关包"
-    },
-    {
-        "package": "react-native-screens",
-        "version": "3.34.0",
-        "desc": "@react-navigation相关包-react-native-screens"
-    },
-    {
-        "package": "react-native-gesture-handler",
-        "version": "2.19.0",
-        "desc": "手势系统包"
+        "package": "路由导航集合包",
+        "desc": "@react-navigation相关包-bottom-tabs",
+        "list": [
+            {
+                "package": "@react-navigation/bottom-tabs",
+                "version": "6.6.1",
+                "desc": "@react-navigation相关包-bottom-tabs",
+                "type": "S"
+            },
+            {
+                "package": "@react-navigation/native",
+                "version": "6.1.18",
+                "desc": "@react-navigation相关包-native",
+                "type": "S"
+            },
+            {
+                "package": "@react-navigation/native-stack",
+                "version": "6.11.0",
+                "desc": "@react-navigation相关包-native-stack",
+                "type": "S"
+            },
+            {
+                "package": "react-native-reanimated",
+                "version": "3.16.1",
+                "desc": "@react-navigation相关包-react-native-reanimated",
+                "type": "S"
+            },
+            {
+                "package": "react-native-safe-area-context",
+                "version": "4.11.0",
+                "desc": "@react-navigation相关包",
+                "type": "S"
+            },
+            {
+                "package": "react-native-screens",
+                "version": "3.34.0",
+                "desc": "@react-navigation相关包-react-native-screens",
+                "type": "S"
+            },
+            {
+                "package": "react-native-gesture-handler",
+                "version": "2.19.0",
+                "desc": "手势系统包",
+                "type": "S"
+            }
+        ]
     },
     {
         "package": "@sparkfabrik/react-native-idfa-aaid",
         "version": "1.2.0",
-        "desc": "获取设备idfa或者aaid包"
+        "desc": "获取设备idfa或者aaid包",
+        "type": "S"
     },
     {
         "package": "buffer",
         "version": "6.0.3",
-        "desc": "Buffer包"
+        "desc": "Buffer包",
+        "type": "S"
     },
     {
         "package": "crypto-js",
         "version": "4.2.0",
-        "desc": "加密包"
+        "desc": "加密包",
+        "type": "S"
     },
     {
         "package": "dayjs",
         "version": "1.11.13",
-        "desc": "日期处理包"
+        "desc": "日期处理包",
+        "type": "S"
     },
     {
         "package": "jail-monkey",
         "version": "2.8.0",
-        "desc": "设备是否越狱包"
+        "desc": "设备是否越狱包",
+        "type": "S"
     },
     {
         "package": "pako",
         "version": "1.0.3",
-        "desc": "压缩包"
+        "desc": "压缩包",
+        "type": "S"
     },
     {
         "package": "react-native-appsflyer",
         "version": "6.15.1",
-        "desc": "appsflyer包"
+        "desc": "appsflyer包",
+        "type": "S"
     },
     {
         "package": "react-native-contacts",
         "version": "7.0.8",
-        "desc": "获取联系人包"
+        "desc": "获取联系人包",
+        "type": "S"
     },
     {
         "package": "react-native-device-info",
         "version": "13.0.0",
-        "desc": "获取设备信息包"
+        "desc": "获取设备信息包",
+        "type": "S"
     },
     {
         "package": "react-native-dotenv",
         "version": "3.4.11",
-        "desc": "项目env设置包"
+        "desc": "项目env设置包",
+        "type": "S"
     },
     {
         "package": "react-native-exit-app",
         "version": "2.0.0",
-        "desc": "退出app包"
+        "desc": "退出app包",
+        "type": "S"
     },
     {
         "package": "react-native-image-picker",
         "version": "7.1.2",
-        "desc": "系统图片选择"
+        "desc": "系统图片选择",
+        "type": "S"
     },
     {
         "package": "react-native-in-app-review",
         "version": "4.3.3",
-        "desc": "商点评分包"
+        "desc": "商点评分包",
+        "type": "S"
     },
     {
         "package": "react-native-keyboard-aware-scroll-view",
         "version": "0.9.5",
-        "desc": "键盘遮挡处理方案包"
+        "desc": "键盘遮挡处理方案包",
+        "type": "S"
     },
     {
         "package": "react-native-linear-gradient",
         "version": "2.8.3",
-        "desc": "渐变色包"
+        "desc": "渐变色包",
+        "type": "S"
     },
     {
         "package": "react-native-localize",
         "version": "3.2.1",
-        "desc": "本地语言"
+        "desc": "本地语言",
+        "type": "S"
     },
     {
         "package": "react-native-modalize",
         "version": "2.1.1",
-        "desc": "弹窗包"
+        "desc": "弹窗包",
+        "type": "S"
     },
     {
         "package": "react-native-permissions",
         "version": "5.0.0",
-        "desc": "权限包"
+        "desc": "权限包",
+        "type": "S"
     },
     {
         "package": "react-native-portalize",
         "version": "1.0.7",
-        "desc": "protal包"
+        "desc": "protal包",
+        "type": "S"
     },
     {
         "package": "react-native-select-contact",
         "version": "1.6.3",
-        "desc": "选择联系人"
+        "desc": "选择联系人",
+        "type": "S"
     },
     {
         "package": "react-native-size-matters",
         "version": "0.4.2",
-        "desc": "适配包"
+        "desc": "适配包",
+        "type": "S"
     },
     {
         "package": "react-native-ui-datepicker",
         "version": "2.0.4",
-        "desc": "日期选择包"
+        "desc": "日期选择包",
+        "type": "S"
     },
     {
         "package": "react-native-vector-icons",
         "version": "10.2.0",
-        "desc": "图标包"
+        "desc": "图标包",
+        "type": "S"
     },
     {
         "package": "react-native-webview",
         "version": "13.12.2",
-        "desc": "webview包"
+        "desc": "webview包",
+        "type": "S"
     },
     {
         "package": "zustand",
         "version": "4.5.5",
-        "desc": "状态管理包"
+        "desc": "状态管理包",
+        "type": "S"
     }
 ]
